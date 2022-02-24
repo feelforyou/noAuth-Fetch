@@ -1,0 +1,113 @@
+.app{
+  position: flex;
+  background-color: transparent;
+}
+.header{
+  
+  color: rgb(80, 80, 141);
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  font-size:larger;
+  margin-bottom: 2px;
+}
+.SearchBar{
+  display: grid;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  justify-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input{
+  display: grid;
+  width: 19em;
+  height: 2rem;
+  justify-content: center;
+  border-color: rgb(23, 23, 24);
+  border-radius: 5px;
+  border-width: 1px;
+  color: rgb(15, 15, 15);
+}
+.Search-container{
+  
+  display: grid;
+  margin-top: 0.5rem;
+  border-style:solid;
+  border-color: transparent;
+  border-radius: 7px;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-top:0.5px ;
+  padding-bottom: 0.5px;
+
+}
+.Search-container:hover{
+  background-color: rgb(247, 252, 252);
+}
+.SearchOutput{
+  
+  margin-top: 5px;
+  border-radius: 7px;
+  background-color: rgb(24, 18, 56);
+  display: flex;
+  justify-content: space-between;
+  justify-items:center;
+  overflow: hidden;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  width: 16em; 
+  position: relative;
+}
+.SearchOutput:hover{
+  background-color: rgb(37, 29, 80);
+  
+}
+.login{
+  color:rgb(249, 249, 253);
+  text-align: center;
+  background-color: transparent;
+  margin-left: 2px;
+  
+}
+.login:hover{
+  color:rgb(211, 208, 210);
+  
+}
+.Loading{
+  display: flex;
+  justify-content: center;
+  font-size:medium;
+  color: gray;
+}
+.HttpError-message{
+  display: flex;
+  justify-content: center;
+  font-size:x-small;
+  margin-bottom: 3px;
+  color: gray;
+
+}
+.countdown{
+  color: red;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.btn-clear-list{
+  background-color: white;
+  color: rgb(12, 12, 70);
+  border-color: rgb(240, 234, 234);
+  margin-top: 10px;
+  border-radius: 7px;
+  padding-top:5px ;
+  padding-bottom: 5px;
+}
+.btn-clear-list:hover{
+  background-color:rgb(12, 12, 70) ;
+  color: white ;
+  cursor: pointer;
+ 
+}
+
