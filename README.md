@@ -1,3 +1,8 @@
+#The link of this app component on Vercel
+Github typeahead searchbar is connected to the Github API search
+to display all users with their avatars and with links to their profile page.
+https://no-auth-fetch-2bninm06m-feelforyou.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
